@@ -20,6 +20,10 @@ body {
         padding: 80px 0;
     }
 
+    .row {
+        display: flex;
+    }
+
 
     h1 {
         font-size: 64px;
@@ -28,10 +32,12 @@ body {
 
 
     .logo__text {
-        font-size: 64px;
+        font-size: 32px;
         font-weight: 200;
         color: white;
-        font-family: roboto;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     .nav__container {
@@ -61,3 +67,74 @@ body {
         color: white;
     }
 
+    .button {
+        color: black;
+        background-color: red;
+        padding: 16px 32px;
+        font-size: 24px;
+        max-width: 300px;
+    }
+
+
+
+    /* HEADER  */
+
+    .header__text {
+        width: 40%;
+    }
+
+    
+    
+    .header__description {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .header__icon {
+        color: white;
+        font-size: 256px;
+    }
+
+    
+    .header__image--wrapper {
+        display: flex;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .header__laptop--wrapper {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .laptop__image {
+        max-width: 800px;
+    }
+    
+
+    /*    EXPERIMENTSL
+    
+    .header__icon--top {
+        width: 100%;
+        display: flex;
+    }
+
+    .header__icon--middle {
+
+    }
+
+    .header__icon--bottom {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+
+    */
+
+    
