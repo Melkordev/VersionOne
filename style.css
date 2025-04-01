@@ -20,13 +20,21 @@ body {
         padding: 80px 0;
     }
 
+    .header__container {
+        padding: 160px 0;
+    }
+
     .row {
         display: flex;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
 
     h1 {
         font-size: 64px;
+        line-height: 100%;
     }
 
 
@@ -38,6 +46,7 @@ body {
         font-family: "Poppins", sans-serif;
         font-weight: 400;
         font-style: normal;
+        line-height: 100%;
     }
 
     .nav__container {
@@ -47,18 +56,22 @@ body {
         align-items: center;
     }
 
+    .nav__row {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
     .nav__links {
         list-style: none;
         display: flex;
         align-items: center;
-        padding-right: 32px;
     }
 
     .nav__link {
         color: white;
-        font-size: 32px;
-        font-weight: 600;
-        padding-left: 64px;
+        font-size: 24px;
+        padding-left: 32px;
 
     }
 
@@ -67,12 +80,18 @@ body {
         color: white;
     }
 
+    button {
+        color: white;
+        background-color: rgb(156, 5, 5);
+        padding: 8px 32px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+    }
+
     .button {
-        color: black;
-        background-color: red;
-        padding: 16px 32px;
-        font-size: 24px;
-        max-width: 300px;
+        padding-top: 16px;
     }
 
 
@@ -94,8 +113,8 @@ body {
     }
 
     .header__icon {
-        color: white;
-        font-size: 256px;
+        color: rgb(246, 238, 238);
+        font-size: 200px;
     }
 
     
@@ -103,26 +122,18 @@ body {
         display: flex;
         width: 60%;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between
         
     }
 
-    .header__laptop--wrapper {
-        width: 60%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .laptop__image {
-        max-width: 800px;
-    }
+    
     
 
-    /*    EXPERIMENTSL
+    /*    EXPERIMENTAL */
     
     .header__icon--top {
-        width: 100%;
-        display: flex;
+        padding-top: 200px;
+
     }
 
     .header__icon--middle {
@@ -130,11 +141,9 @@ body {
     }
 
     .header__icon--bottom {
-        width: 100%;
-        display: flex;
-        justify-content: end;
+        padding-bottom: 200px;
     }
 
-    */
+   
 
     
