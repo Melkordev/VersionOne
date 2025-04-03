@@ -128,7 +128,7 @@ body {
     .header__image--wrapper {
         display: flex;
         width: 50%;
-        justify-content: space-between
+        justify-content: center;
         
     }
 
@@ -139,6 +139,7 @@ body {
     
     .header__icon--top {
         padding-top: 00px;
+        display: none;
 
     }
 
