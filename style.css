@@ -232,7 +232,6 @@ body {
         max-width: 400px;
         font-family: 'Lato';
         font-weight: 400;
-        box-shadow: none;
       }
       
       .form-control, 
@@ -241,6 +240,7 @@ body {
         background-color: #000;
         color: #fff;
         letter-spacing: 1px;
+        box-shadow: none;
       }
       
       .send-button {
