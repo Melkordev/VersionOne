@@ -209,10 +209,10 @@ body {
       .section-header {
         text-align: center;
         margin: 0 auto;
-        padding: 40px 0;
-        font: 300 60px 'Oswald', sans-serif;
+        padding: 80px 0;
+        font-family: "Poppins", sans-serif;
+        font-weight: normal;
         color: #fff;
-        text-transform: uppercase;
         letter-spacing: 6px;
       }
       
@@ -240,7 +240,12 @@ body {
         background-color: #000;
         color: #fff;
         letter-spacing: 1px;
-        box-shadow: none;
+        border-width: 1px;
+        border-color: #bbb;
+      }
+
+      .col-sm-12 {
+        padding-bottom: 16px;
       }
       
       .send-button {
@@ -249,12 +254,15 @@ body {
         width: 400px;
         overflow: hidden;
         transition: all .2s ease-in-out;
-      }
+        background-color: rgb(156, 5, 5);
+        border-width: 1px;     
+    }
       
       .alt-send-button {
         width: 400px;
         height: 34px;
         transition: all .2s ease-in-out;
+        padding-top: 5px;
       }
       
       .send-text {
