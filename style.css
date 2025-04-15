@@ -44,6 +44,8 @@ body {
     p {
         padding-top: 24px;
         display: none;
+        color: #fff;
+        font-size: 48px;
     }
 
 
@@ -471,4 +473,27 @@ body {
 
 
 
+      /* -- ABOUT ME -- */
     
+
+      .aboutme__body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .row__about {
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+      .about__text--left {
+        width: 50%;
+      }
+
+      .about__text--right {
+        width: 50%;
+      }
