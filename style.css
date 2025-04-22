@@ -41,11 +41,23 @@ body {
         font-weight: 600;
     }
 
+    h5 {
+      font-size: 64px;
+      color: #555;
+    }
+
+    h6 {
+      font-weight: 80;
+    }
+
+   
+
     p {
         padding-top: 24px;
-        display: none;
         color: #fff;
-        font-size: 48px;
+        font-size: 20px;
+        padding-right: 8px;
+        width: 100%;
     }
 
 
@@ -120,6 +132,7 @@ body {
 
     .red {
         color: rgb(156, 5, 5);
+        font-weight: 600;
     }
 
 
@@ -479,6 +492,7 @@ body {
       .aboutme__body {
         min-height: 100vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
       }
@@ -491,9 +505,25 @@ body {
     }
 
       .about__text--left {
-        width: 50%;
+        width: 30%;
+        padding-top: 24px;
       }
 
       .about__text--right {
-        width: 50%;
+        width: 70%;
+      }
+
+      .about__title {
+        font-size: 80px;
+        line-height: 100%;
+        font-weight: 600;
+      }
+
+      .about__code--symbole {
+        color: rgb(156, 5, 5);
+        font-weight: 400;
+      }
+
+      .about__logo {
+        
       }
