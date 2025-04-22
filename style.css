@@ -43,7 +43,8 @@ body {
 
     h5 {
       font-size: 64px;
-      color: #555;
+      font-weight: 200;
+      transform: rotate(90deg);
     }
 
     h6 {
