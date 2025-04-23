@@ -70,6 +70,7 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
     }
 
     .nav__row {
@@ -525,6 +526,18 @@ body {
         font-weight: 400;
       }
 
-      .about__logo {
+
+      .home__button {
+        display: inline-block;
+        transition: transform 0.3s ease;
+      }
+
+      .home__button:hover {
+        transform: scale(2);
+        font-weight: 80;
+        color: #bbb;
         
       }
+
+
+
