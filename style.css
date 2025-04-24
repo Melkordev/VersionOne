@@ -42,9 +42,8 @@ body {
     }
 
     h5 {
-      font-size: 64px;
-      font-weight: 200;
-      transform: rotate(90deg);
+      font-size: 32px;
+   
     }
 
     h6 {
@@ -548,14 +547,16 @@ body {
 
       .home__button {
         display: inline-block;
-        transition: transform 0.2s ease;
+        transition: transform 0.7s ease;
+        font-weight: 100;
+        color: #b1b1b1;
+        
       }
 
       .home__button:hover {
-        transform: scale(1.6);
+        transform: scale(1.5);
         font-weight: 200;
-        color: #bbb;
-        
+               
       }
 
 
