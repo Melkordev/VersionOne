@@ -710,6 +710,60 @@ button[type="submit"]:hover {
       font-size: 21px;
   }
 
+
+  section {
+    padding: 0 16px;
+}
+
+
+  .nav__container {
+    padding-top: 32px;
+    max-width: 895px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__main {
+  height: 12px;
+}
+
+.logo__wrapper {
+  padding-bottom: 30px;
+}
+
+
+
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  margin-top: 16px;
+  
+}
+
+ul {
+  padding-top: 64px;
+}
+
+.nav__link {
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  font-weight: 200;
+  padding-top: 63px;
+
+}
+
+
+.nav__link--about {
+}
+
+
   .header_h1--logo {
     font-size: 64px;
 }
@@ -727,6 +781,34 @@ button[type="submit"]:hover {
 .row  {
   display: flex;
   flex-direction: column;
+}
+
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 0;
+  padding-bottom: 178px;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(156, 5, 5);
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+.header__icon--wrapper {
+  display: flex;
+  width: 50%;
+  justify-content: start;
 }
 
 
