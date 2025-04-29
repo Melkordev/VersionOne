@@ -717,7 +717,7 @@ button[type="submit"]:hover {
 
 
   .nav__container {
-    padding-top: 32px;
+    padding-top: 16px;
     max-width: 895px;
     display: flex;
     justify-content: space-between;
@@ -725,11 +725,11 @@ button[type="submit"]:hover {
 }
 
 .logo__main {
-  height: 12px;
+  height: 16px;
 }
 
 .logo__wrapper {
-  padding-bottom: 30px;
+  padding-bottom: 64px;
 }
 
 
@@ -812,4 +812,32 @@ ul {
 }
 
 
+}
+
+
+
+
+/* ---- ABOUT -- SMALL PHONES, TABLETS, LARGE SMARTPHONES------ */
+
+
+.row__about {
+  flex-direction: column;
+}
+
+.about__title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.about__text--left {
+  width: 50%;
+  padding-top: 24px;
+}
+
+.about__text--paragraph {
+  font-size: 16px;
+}
+
+.about__text--right {
+  width: 100%;
 }
