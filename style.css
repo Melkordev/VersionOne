@@ -746,7 +746,7 @@ li {
 }
 
 ul {
-  padding-top: 64px;
+  display: none;
 }
 
 .nav__link {
@@ -754,13 +754,9 @@ ul {
   font-size: 16px;
   text-align: right;
   font-weight: 200;
-  padding-top: 63px;
-
 }
 
 
-.nav__link--about {
-}
 
 
   .header_h1--logo {
