@@ -101,12 +101,12 @@ body {
         color: white;
         font-size: 20px;
         padding-left: 40px;
-        font-weight: 200;
+        font-weight: 300;
 
     }
 
     .nav__link:hover {
-        color: brown;
+        color: rgb(156, 5, 5);
         font-weight: 400;
     }
 
@@ -132,8 +132,7 @@ body {
 
 
     .button:hover {
-        box-shadow: white;
-        background-color: brown;
+        background-color: rgb(109, 4, 4);
     }
     
 
@@ -198,7 +197,7 @@ body {
     .header__icon--wrapper {
         display: flex;
         width: 50%;
-        justify-content: center;
+        justify-content: end;
         
     }
 
