@@ -856,10 +856,20 @@ ul {
   justify-content: space-evenly;
 }
 
-.contact__title {
-  padding: 30px;
+.row__contact--info {
   width: 100%;
   text-align: center;
+}
+
+.contact__title {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+
+.contact__info {
+  width: 100%;
+  font-size: 16px;
 }
 
 .contact__left {
