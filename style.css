@@ -854,12 +854,14 @@ ul {
 .row__contact--info {
   width: 100%;
   text-align: center;
+  padding-bottom: 0;
 }
 
 .contact__title {
   width: 100%;
   text-align: center;
   font-size: 24px;
+  padding: 16px;
 }
 
 .contact__info {
@@ -870,7 +872,17 @@ ul {
 .contact__left {
   width: 100%;
   justify-items: center;
-  padding-top: 80px;
+  padding-top: 0px;
+}
+
+.contact-container {
+  padding: 0px 16px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact__or {
+  padding: 36px;
 }
 
 }
