@@ -572,14 +572,14 @@ body {
 
 
 
-        /* -- CONTACT -- */
+        /* --- CONTACT --- */
 
 
         .row__contact {
           display: flex;
           width: 100%;
           max-width: 1200px;
-          justify-content: space-evenly;
+          align-items: center;
       }
 
       .row__contact--info {
@@ -817,7 +817,7 @@ ul {
 
 
 
-/* ---- ABOUT -- SMALL PHONES, TABLETS, LARGE SMARTPHONES------ */
+/* ---- ABOUT --- SMALL PHONES, TABLETS, LARGE SMARTPHONES------ */
 
 
 .row__about {
@@ -840,6 +840,32 @@ ul {
 
 .about__text--right {
   width: 100%;
+}
+
+
+
+
+/* ---- CONTACT --- SMALL PHONES, TABLETS, LARGE SMARTPHONES------ */
+
+
+.row__contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-evenly;
+}
+
+.contact__title {
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact__left {
+  width: 100%;
+  justify-items: center;
+  padding-top: 80px;
 }
 
 }
