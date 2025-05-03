@@ -734,10 +734,17 @@ button[type="submit"]:hover {
 
 
 
+
+
+
+
+
 .nav__links {
   list-style: none;
   display: flex;
   flex-direction: column;
+  
+  
 }
 
 li {
@@ -745,9 +752,7 @@ li {
   
 }
 
-ul {
-  display: none;
-}
+
 
 .nav__link {
   color: white;
@@ -867,6 +872,7 @@ ul {
 .contact__info {
   width: 100%;
   font-size: 16px;
+  padding-top: 8px;
 }
 
 .contact__left {
@@ -884,5 +890,10 @@ ul {
 .contact__or {
   padding: 36px;
 }
+
+textarea {
+  background-color: rgb(226, 217, 217);
+}
+
 
 }
