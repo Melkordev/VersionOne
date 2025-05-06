@@ -47,6 +47,23 @@ body {
     }
 
 
+    .mobile__nav--menu {
+      position: fixed;
+      top: 70%;
+      right: 0;
+      width: 100px;
+      height: 100%;
+      background-color: white;
+      color: red;
+      z-index: 999;
+      padding-top: 60px;
+      display: flex;
+      flex-direction: column;
+      opacity: 0;
+    
+    }
+
+
     h1 {
         font-size: 80px;
         line-height: 100%;
@@ -663,7 +680,16 @@ button[type="submit"]:hover {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
+}
 
+
+.mobile__nav--menu.open {
+  opacity: 1; /* Show the menu when open */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+.mobile-nav-menu a:hover {
+  background-color: #555; /* Highlight on hover */
 }
 
 
