@@ -149,8 +149,7 @@ body {
 
 
 
-    .nav__link--contact {
-    }
+    
 
 
 
@@ -460,9 +459,7 @@ body {
         padding-top: 24px;
       }
 
-      .about__text--right {
-        
-      }
+      
 
       .about__title {
         font-size: 80px;
@@ -683,8 +680,9 @@ button[type="submit"]:hover {
 }
 
 
-.mobile__nav--menu.open {
+.mobile__nav--menu  {
   opacity: 1; /* Show the menu when open */
+  visibility: visible;
   transition: opacity 0.3s ease-in-out; /* Smooth transition */
 }
 
