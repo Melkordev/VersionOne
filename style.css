@@ -666,13 +666,14 @@ button[type="submit"]:hover {
 
 
 .mobile__nav--menu {
+  list-style: none;
   position: fixed;
-  top: 70%;
-  right: 0;
+  top: 60%;
+  right: 10px;
+  bottom: 30px;
   width: 100px;
   height: 100%;
-  background-color: white;
-  color: red;
+  background-color: rgb(0, 0, 0);
   z-index: 999;
   padding-top: 60px;
   display: flex;
@@ -681,9 +682,13 @@ button[type="submit"]:hover {
 
 
 .mobile__nav--menu  {
-  opacity: 1; /* Show the menu when open */
+  opacity: 0; /* Show the menu when open */
   visibility: visible;
   transition: opacity 0.3s ease-in-out; /* Smooth transition */
+}
+
+.open {
+  opacity: 1;
 }
 
 .mobile-nav-menu a:hover {
@@ -704,11 +709,6 @@ button[type="submit"]:hover {
 
 
 
-
-
-
-
-
 .nav__links {
   list-style: none;
   display: flex;
@@ -725,7 +725,7 @@ li {
 
 
 .nav__link {
-  color: rgb(0, 0, 0);
+  color: rgb(240, 12, 12);
   font-size: 16px;
   text-align: center;
   font-weight: 400;
