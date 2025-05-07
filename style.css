@@ -678,6 +678,7 @@ button[type="submit"]:hover {
   padding-top: 60px;
   display: flex;
   flex-direction: column;
+  text-align: right;
 }
 
 
@@ -725,10 +726,10 @@ li {
 
 
 .nav__link {
-  color: rgb(240, 12, 12);
+  color: rgb(255, 255, 255);
   font-size: 16px;
-  text-align: center;
   font-weight: 400;
+  padding-left: 0;
 }
 
 
