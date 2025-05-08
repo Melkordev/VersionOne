@@ -43,7 +43,7 @@ body {
 
     nav {
       height: 80px;
-      align-content: center;
+      align-content: end;
     }
 
 
@@ -93,6 +93,7 @@ body {
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
+        justify-items: end;
     }
 
     .nav__row--about {
@@ -180,7 +181,6 @@ body {
 
 
     header {
-        height: 100vh;
         align-content: center;
 
     }
@@ -256,7 +256,7 @@ body {
         margin: 0;
         padding: 0;
         background-color: #000;
-        padding-bottom: 100px;
+        height: 100vh;
     }
 
     
@@ -593,10 +593,21 @@ button[type="submit"]:hover {
 
 
 
+
+
+.mobile__nav--menu {
+  display: none;
+ 
+}
+
+
 /* ------SMALL PHONES, TABLETS, LARGE SMARTPHONES------ */
 
 
 @media (max-width: 895px) {
+
+
+
 
 
   h1 {
@@ -623,8 +634,9 @@ button[type="submit"]:hover {
 
 
 
-
-}
+.desktop__nav--menu {
+  display: none; /* Hide the desktop menu on mobile */
+} 
 
 
 .mobile__nav {
@@ -635,35 +647,24 @@ button[type="submit"]:hover {
 
 
 
+
+
+
 .mobile__nav--menu {
   list-style: none;
   background-color: rgb(0, 0, 0);
   display: flex;
- 
 }
 
 
-.mobile__nav--menu  {
-  opacity: 1; /* Show the menu when open */
-  visibility: visible;
-  transition: opacity 0.3s ease-in-out; /* Smooth transition */
+.desktop__nav--menu {
+  display: none;
 }
 
 
-
-
-
-.logo__main {
-  height: 16px;
+.nav__container {
+  display: none;
 }
-
-.logo__wrapper {
-  padding-bottom: 64px;
-}
-
-
-
-
 
 
 li {
@@ -675,11 +676,44 @@ li {
 
 
 .nav__link {
-  color: rgb(255, 255, 255);
+  color: rgb(52, 211, 60);
   font-size: 16px;
   font-weight: 400;
   padding-left: 0;
 }
+
+.mobile__nav--link {
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+  font-weight: 300;
+}
+
+
+
+}
+
+
+
+
+
+.desktop__nav--menu {
+  list-style: none;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -815,4 +849,3 @@ textarea {
 }
 
 
-}
