@@ -1,5 +1,6 @@
 body {
     background-color: rgb(0, 0, 0);
+    height: 100vh;
     
 }
 
@@ -46,6 +47,10 @@ body {
       align-content: end;
     }
 
+    .mobile__nav--bar {
+      display: none;
+    }
+
 
     
 
@@ -72,6 +77,12 @@ body {
         font-size: 20px;
         padding-right: 8px;
         width: 100%;
+    }
+
+
+    .landing__section {
+      height: 100%;
+      
     }
 
 
@@ -133,7 +144,9 @@ body {
 
 
 
-    
+      header {
+        height: 100%;
+      }
 
 
 
@@ -189,8 +202,8 @@ body {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-        padding-top: 0;
-        padding-bottom: 124px;
+      padding-top: 0;
+      padding-bottom: 124px;
     }
 
 
@@ -624,6 +637,39 @@ button[type="submit"]:hover {
 }
 
 
+
+  .header__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 222px;
+  }
+
+
+
+header {
+  width: 100%;
+  align-content: end;
+  bottom: 200px;
+
+}
+
+
+.header__index {
+  width: 80%;
+  align-content: end;
+  bottom: 200px;
+
+}
+
+
+
+
+
+  nav {
+  }
+
   .nav__container {
     padding-top: 16px;
     max-width: 895px;
@@ -639,14 +685,34 @@ button[type="submit"]:hover {
 } 
 
 
-.mobile__nav {
-  transform: rotate(-90deg);
-  align-content: end;
+
+
+
+.mobile__nav--bar {
+  position: fixed;
+  display: flex;
+  right: 10px;
+  height: 100%;
+}
+
+
+.landing__section {
+  display: flex;
+  height: 100%;
+  
 }
 
 
 
+.mobile__nav--container {
+  transform-origin: bottom right;
+  transform: rotate(-90deg);
+}
 
+
+.mobile__nav--row {
+  align-content: center;
+}
 
 
 
@@ -669,17 +735,20 @@ button[type="submit"]:hover {
 
 li {
   position: relative;
-  margin-right: 16px;
+  margin-right: 12px;
   bottom: 0;
 }
 
 
 
 .nav__link {
-  color: rgb(52, 211, 60);
+  color: rgb(0, 0, 0);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   padding-left: 0;
+  background-color: rgb(240, 239, 239);
+  padding: 3px 8px;
+  border-radius: 2px;
 }
 
 .mobile__nav--link {
@@ -737,13 +806,7 @@ li {
 }
 
 
-.header__container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-top: 0;
-  padding-bottom: 178px;
-}
+
 
 
 .button {
