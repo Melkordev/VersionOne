@@ -416,6 +416,8 @@ body {
         max-height: 100vh;
         display: flex;
         flex-direction: column;
+        max-width: 1200px;
+        width: 100%;
         
       }
       
@@ -658,8 +660,8 @@ header {
 
 .header__index {
   width: 80%;
-  align-content: end;
-  bottom: 200px;
+  align-content: ;
+  bottom: 33%;
 
 }
 
@@ -837,7 +839,14 @@ li {
 
 
 .row__about {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+
+.about__section {
+  height: 100%;
 }
 
 .about__title {
@@ -857,6 +866,8 @@ li {
 .about__text--right {
   width: 100%;
 }
+
+
 
 
 
