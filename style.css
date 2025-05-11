@@ -60,6 +60,11 @@ body {
         font-weight: 600;
     }
 
+    h2 {
+      font-size: 21px;
+    }
+
+
     h5 {
       font-size: 32px;
    
@@ -409,6 +414,39 @@ body {
 
 
       /* -- ABOUT ME -- */
+
+
+
+
+      .row__about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      
+      .about__section {
+        height: 100%;
+      }
+      
+      
+      
+      .about__text--left {
+        width: 50%;
+        padding-top: 24px;
+      }
+      
+      .about__text--paragraph {
+        font-size: 16px;
+      }
+      
+      .about__text--right {
+        width: 100%;
+      }
+
+
+
+
     
 
       .about__section {
@@ -630,7 +668,7 @@ button[type="submit"]:hover {
   }
 
   h2 {
-      font-size: 21px;
+      font-size: 16px;
   }
 
 
@@ -645,7 +683,7 @@ button[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding-bottom: 222px;
+    padding-bottom: 0px;
   }
 
 
@@ -658,9 +696,14 @@ header {
 }
 
 
+.contact__header {
+  align-content: start;
+}
+
+
 .header__index {
   width: 80%;
-  align-content: ;
+  align-content: center;
   bottom: 33%;
 
 }
@@ -669,8 +712,7 @@ header {
 
 
 
-  nav {
-  }
+ 
 
   .nav__container {
     padding-top: 16px;
@@ -714,6 +756,7 @@ header {
 
 .mobile__nav--row {
   align-content: center;
+  height: 100%;
 }
 
 
@@ -761,7 +804,8 @@ li {
 
 
 
-}
+
+
 
 
 
@@ -776,8 +820,49 @@ li {
 
 
 
+.container__contact {
+  display: flex;
+  padding-bottom: 0;
+}
 
 
+.form-group {
+  font-size: 14px;
+}
+
+
+
+
+
+
+.row__about {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: start;
+}
+
+
+.about__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.about__text--left {
+  width: 100%;
+}
+
+.about__text--right {
+  width: 75%;
+  
+}
+
+
+
+
+
+
+}
 
 
 
@@ -838,34 +923,7 @@ li {
 /* ---- ABOUT --- SMALL PHONES, TABLETS, LARGE SMARTPHONES------ */
 
 
-.row__about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-
-.about__section {
-  height: 100%;
-}
-
-.about__title {
-  font-size: 24px;
-  font-weight: 300;
-}
-
-.about__text--left {
-  width: 50%;
-  padding-top: 24px;
-}
-
-.about__text--paragraph {
-  font-size: 16px;
-}
-
-.about__text--right {
-  width: 100%;
-}
 
 
 
@@ -915,7 +973,7 @@ li {
 }
 
 .contact__or {
-  padding: 36px;
+  padding: 28px;
 }
 
 textarea {
