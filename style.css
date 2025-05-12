@@ -698,6 +698,7 @@ header {
 
 .contact__header {
   align-content: start;
+  z-index: 0;
 }
 
 
@@ -735,7 +736,7 @@ header {
 .mobile__nav--bar {
   position: fixed;
   display: flex;
-  right: 10px;
+  right: 0px;
   height: 100%;
 }
 
@@ -782,6 +783,7 @@ li {
   position: relative;
   margin-right: 12px;
   bottom: 0;
+  align-content: center;
 }
 
 
@@ -804,7 +806,15 @@ li {
 
 
 
-
+.home__button {
+  display: inline-block;
+  transition: transform 0.7s ease;
+  font-weight: 100;
+  color: #b1b1b1;
+  font-size: 32px;
+  margin-top: 0px;
+  
+}
 
 
 
