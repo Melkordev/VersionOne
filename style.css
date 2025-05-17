@@ -697,9 +697,12 @@ header {
 
 
 .contact__header {
-  align-content: start;
+  align-content: center;
   z-index: 0;
+  width: 93%;
 }
+
+
 
 
 .header__index {
@@ -710,6 +713,9 @@ header {
 }
 
 
+.nav__top {
+  display: none;
+}
 
 
 
@@ -854,8 +860,9 @@ li {
 
 
 .about__title {
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 .about__text--left {
@@ -863,12 +870,25 @@ li {
 }
 
 .about__text--right {
-  width: 75%;
+  width: 80%;
   
 }
 
 
 
+/* --- CCONTACTS - MOBILE RESP --- */
+
+
+.contact__section {
+  position: absolute;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+}
+
+
 
 
 
@@ -877,7 +897,15 @@ li {
 
 
 
-
+.about__section {
+  position: absolute;
+  max-height: 100vh;
+  display: flex
+;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+}
 
 
 
