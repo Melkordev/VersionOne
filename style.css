@@ -421,7 +421,6 @@ body {
       .row__about {
         display: flex;
         flex-direction: column;
-        align-items: center;
       }
       
       
@@ -437,7 +436,7 @@ body {
       }
       
       .about__text--paragraph {
-        font-size: 16px;
+        font-size: 18px;
       }
       
       .about__text--right {
@@ -488,7 +487,6 @@ body {
         width: 100%;
         max-width: 1200px;
         margin: 0 auto;
-        text-align: center;
     }
 
       .about__text--left {
@@ -498,10 +496,12 @@ body {
       
 
       .about__title {
-        font-size: 80px;
+        font-size: 32px;
         line-height: 100%;
-        font-weight: 600;
+        font-weight: 300;
       }
+
+      
 
 
 
@@ -756,12 +756,16 @@ header {
 
 
 .mobile__nav--container {
+  position: relative;
   transform-origin: bottom right;
   transform: rotate(-90deg);
+  bottom: 10%;
+
 }
 
 
 .mobile__nav--row {
+  position: relative;
   align-content: center;
   height: 100%;
 }
@@ -860,8 +864,8 @@ li {
 
 
 .about__title {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 400;
   font-family: "Poppins", sans-serif;
 }
 
